@@ -754,18 +754,18 @@ header {
 @keyframes autoBlur {
     0% {
         opacity: 0;
-        filter: blur(40px);
+        -webkit-filter: blur(40px);
     }
 
     45%,
     75% {
         opacity: 1;
-        filter: blur(0);
+        -webkit-filter: blur(0);
     }
 
     100% {
         opacity: 0;
-        filter: blur(40px);
+        -webkit-filter: blur(40px);
     }
 }
 
@@ -800,7 +800,7 @@ header {
 }
 
 .skills-image:hover {
-    filter: brightness(150%) blur(0);
+    -webkit-filter: brightness(150%) blur(0);
 }
 
 .designer {
