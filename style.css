@@ -753,18 +753,18 @@ header {
 
 @keyframes autoBlur {
     0% {
-        opacity: 0;
+
         -webkit-filter: blur(40px);
     }
 
-    45%,
+    25%,
     75% {
-        opacity: 1;
+
         -webkit-filter: blur(0);
     }
 
     100% {
-        opacity: 0;
+
         -webkit-filter: blur(40px);
     }
 }
