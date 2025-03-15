@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nav Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c05b3a09d7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="icon" href="eric.png">
+</head>
+<body>
+    <video src="hero-video.mp4" autoplay loop muted playsinline type="video/mp4" class="hero autoBlur"></video>
+    <video class="galaxy" src="galaxy.mp4" autoplay loop muted playsinline type="video/mp4"></video>
+    <video class="blackhole" src="blackhole.mp4" autoplay loop muted playsinline type="video/mp4"></video>
+    <header>
+        <a class="logo" href="#">ERIC<span> .</span></a>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#" onclick="window.location.reload()">Home</a></li>
+                <li><a href="#social-media">Social Media</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <button>Join Us</button>
+            </ul>
+        </nav>
+        <i id="menu-button" onclick="showMenu()" class="fa-solid fa-burger" style="color: aliceblue;"></i>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-title autoBlur">
+            <h1>Know Everything <span>About Me</span></h1>
+            <h2>Explore the <span>Unknown Realms</span></h2>
+        </div>
+        <div class="hero-container autoBlur">
+            <div class="img-container ">
+                <img src="eric.png" alt="eric" >
+            </div>
+            <div class="about">
+                <i id="about-logo" class="fa-solid fa-address-card"></i>
+                <h1>Hi there</h1>
+                <h2>IM ERIC LAM</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officia eius nisi molestias similique alias deleniti qui ab odit aut suscipit, praesentium veniam ducimus modi totam itaque animi, natus recusandae.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-title autoBlur" id="social-media">
+        <p class="small-title">Everything about</p>
+        <h1 class="big-title">Social Media</h1>
+    </div>
+
+    <div class="social-media-scroller autoBlur">
+        <div class="item "><i id="item1" class="social-icons fa-brands fa-facebook"></i></div>
+        <div class="item "><i id="item2" class="social-icons fa-brands fa-square-instagram"></i></div>
+        <div class="item "><i id="item3" class="social-icons fa-brands fa-twitter"></i></div>
+        <div class="item "><i id="item4" class="social-icons fa-brands fa-linkedin"></i></div>
+        <div class="item "><i id="item5" class="social-icons fa-brands fa-tiktok"></i></div>
+        <div class="item "><i id="item6" class="social-icons fa-solid fa-paper-plane"></i></div>
+        <div class="item "><i id="item7" class="social-icons fa-brands fa-square-steam"></i></div>
+        <div class="item "><i id="item8" class="social-icons fa-brands fa-square-snapchat"></i></div>
+        <div class="item "><i id="item9" class="social-icons fa-brands fa-square-github"></i></div>
+    </div>
+
+    <div id="project" class="project-title autoBlur">
+        <p class="small-title">Previous</p>
+        <h1 class="big-title">Projects</h1>
+    </div>
+    <div class="project-container">
+        <div class="project project1 autoBlur">
+           <video class="video-project" src="project1.mp4" loop muted playsinline></video> 
+           <div class="description">
+                <h1>The Next Level<span>Game Website</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, impedit in quasi pariatur porro explicabo alias quam veritatis quia praesentium. Corporis neque, obcaecati laborum quis possimus corrupti eveniet voluptatibus.</p>
+                <button class="website">Website</button>
+            </div>
+        </div>
+        <div class="project project2 autoBlur">
+            <video class="video-project" src="project2.mp4" loop muted playsinline></video>
+            <div class="description">
+                <h1>Responsive<span>Portfolio Website</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, impedit in quasi pariatur porro explicabo alias quam veritatis quia praesentium. Corporis neque, obcaecati laborum quis possimus corrupti eveniet voluptatibus.</p>  
+                <button class="website">Website</button>
+            </div>
+        </div>
+        <div class="project project3 autoBlur">
+            <video class="video-project" src="project3.mp4" loop muted playsinline></video>
+            <div class="description">
+                <h1>Watch Movie with<span>Aesthetic Design</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, impedit in quasi pariatur porro explicabo alias quam veritatis quia praesentium. Corporis neque, obcaecati laborum quis possimus corrupti eveniet voluptatibus.</p>
+                <button class="website">Website</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="skill" class="skill-title autoBlur">
+        <p class="small-title">Recent</p>
+        <h1 class="big-title">Skills</h1>
+    </div>
+    <section class="skill-section">
+        <div class="skills-box " >
+            <img class="skills-image" src="digital brain.png" alt="brain">
+        </div>
+        <div class="designer autoBlur">
+            <h1 class="gradient">Designer<i class="fa-solid fa-pen-ruler"></i></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi rerum ullam blanditiis natus beatae repellat, numquam exercitationem ipsa sequi ea eveniet modi ipsum ipsam ut eum aspernatur? Eius, quos facilis.</p>
+        </div>
+
+        <div class="coder autoBlur">
+            <h1 class="gradient">Coder<i class="fa-solid fa-keyboard"></i></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta sed nulla nesciunt, rem ipsum pariatur perferendis inventore non sit culpa doloremque quo eius, asperiores tempore vitae cum optio dolorum?</p>
+        </div>
+    </section>
+
+    <div id="talk" class="talk-title autoBlur">
+        <p class="small-title">Let's Talk !</p>
+        <h1 class="big-title">Join Us</h1>
+    </div>
+    <section class="talk autoBlur">
+        <div class="contact-section">
+            <ul class="contact-logo">
+                <li><a href="#"><i class="fa-solid fa-phone-volume"></i>+60 11 119 05117</a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i>linj361@gmail.com</a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i>https://github.com/ericlamkf</a></li>
+            </ul>
+            <ul class="other-logos">
+                <li><i id="item2" class="fa-brands fa-square-instagram"></i></li>
+                <li><i id="item3" class="fa-brands fa-twitter"></i></li>
+                <li><i id="item4" class="fa-brands fa-linkedin"></i></li>
+            </ul>
+        </div>
+        <div class="form-section">
+            <p>Looking to build a new website, improve your existing platform or being a unique project to file ? I'm here to help.</p>
+            <form action="post">
+                <div class="text-box full-name">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Your Full Name" class="name">
+                </div>
+                <div class="text-box email">
+                    <label for="email">Email Address</label>
+                    <input type="text" placeholder="Your Email" class="email">
+                </div>
+                <div class="text-box message">
+                    <label for="message">Your Message</label>
+                    <input type="text" placeholder="Share your thoughts... " class="message">
+                </div>
+            </form>
+            <button class="submit-btn"><i class="fa-solid fa-share"></i> Send Message</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="left-footer">
+            <a class="logo" href="#">ERIC<span> .</span></a>
+        </div>
+        <div class="right-footer">
+            <ul>
+                <li><a href="#">License</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Refunds</a></li>
+                <li><a href="#">Cookie</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
