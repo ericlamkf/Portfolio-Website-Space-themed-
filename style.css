@@ -746,11 +746,6 @@ header {
     }
 }
 
-.autoBlur {
-    animation: autoBlur linear both;
-    animation-timeline: view();
-}
-
 @keyframes autoBlur {
     0% {
         opacity: 0;
