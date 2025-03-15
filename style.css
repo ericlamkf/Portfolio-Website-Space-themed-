@@ -746,7 +746,7 @@ header {
     }
 }
 
-.autoBslur {
+.autoBlur {
     animation: autoBlur linear both;
     animation-timeline: view();
 }
