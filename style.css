@@ -753,19 +753,25 @@ header {
 
 @keyframes autoBlur {
     0% {
-
+        opacity: 0;
         -webkit-filter: blur(40px);
     }
 
-    25%,
+    35%,
     75% {
-
+        opacity: 1;
         -webkit-filter: blur(0);
     }
 
     100% {
-
+        opacity: 0;
         -webkit-filter: blur(40px);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .autoBlur {
+        animation: none;
     }
 }
 
